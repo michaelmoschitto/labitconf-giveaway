@@ -1,0 +1,232 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "bunRipped": "bun ripped."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "connectWallet": "Connect Wallet"
+  },
+  "giveaway": {
+    "title": "Bitcoin Bankers Kickstarter",
+    "subtitle": "Get up to $25 in BTC on Mezo",
+    "description": "Get up to $25 in BTC matched on your first BTC deposit to Mezo, the Bitcoin banking app. We're activating the first wave of self-custodying Bitcoin bankers in LATAM with deposit matches and exclusive access to the Mezo mobile app.",
+    "enterNow": "Enter Now",
+    "howItWorks": "How It Works",
+    "prizes": "Prizes",
+    "leaderboard": "Leaderboard",
+    "rules": "Rules",
+    "comingSoon": "Coming soon..."
+  },
+  "hero": {
+    "headline": "Win {amount} in Bitcoin",
+    "headlinePart1": "Bitcoin Bankers",
+    "headlinePart2": "Kickstarter",
+    "prizeAmount": "",
+    "subheadline": "Get up to $25 in BTC on Mezo",
+    "totalPrize": "Total Prize",
+    "prizePool": "Prize Pool",
+    "inBitcoin": "in Bitcoin",
+    "timeRemaining": "TIME REMAINING",
+    "timeEnding": "Giveaway Ends In",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "winners": "Winners",
+    "winner": "Winner",
+    "enterGiveaway": "Enter Giveaway",
+    "prizeBreakdown": "Prize Breakdown",
+    "grandPrize": "Grand Prize",
+    "runnerUp": "Runner Up Prizes",
+    "topPrizes": "Top Prizes",
+    "morePrizes": "More Winners",
+    "getStarted": "Get Started"
+  },
+  "prizes": {
+    "title": "Deposit BTC, Get BTC",
+    "subtitle": "Create your Mezo account, deposit funds, get up to $25 matched",
+    "tiers": {
+      "grand": {
+        "title": "OG",
+        "amount": "$25 Match",
+        "winners": "60 wallets",
+        "total": "60 wallets"
+      },
+      "secondary": {
+        "title": "Sovereign",
+        "amount": "$20 Match",
+        "winners": "100 wallets",
+        "total": "100 wallets"
+      },
+      "intermediate": {
+        "title": "Explorer",
+        "amount": "$10 Match",
+        "winners": "250 wallets",
+        "total": "250 wallets"
+      },
+      "base": {
+        "title": "Total",
+        "amount": "$6k Match",
+        "winners": "410 wallets",
+        "total": "410 wallets"
+      }
+    },
+    "totalPrize": "Total Prize",
+    "totalAmount": "$6,000",
+    "inBitcoin": "in Bitcoin",
+    "totalWinners": "195 winners in total",
+    "distributionInfo": "Matches are distributed in BTC on Mezo within 2 weeks of qualifying deposit. The program launches on November 7th at LaBitConf Buenos Aires. First 410 wallets only.",
+    "drawDate": ""
+  },
+  "form": {
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "country": "Country",
+    "city": "City",
+    "twitter": "Twitter Handle",
+    "linkedin": "LinkedIn Profile",
+    "referralCode": "Referral Code (Optional)",
+    "agreeTerms": "I agree to the terms and conditions",
+    "subscribeNewsletter": "Subscribe to newsletter",
+    "enterGiveaway": "Enter the giveaway",
+    "thankYou": "Thank you for entering!",
+    "confirmationMessage": "Your entry has been submitted successfully. Good luck!",
+    "confirmEntry": "Confirm",
+    "confirmEntryWithReflink": "Confirm Entry using reflink",
+    "walletAddress": "Your Mezo wallet address",
+    "walletAddressLabel": "Mezo Wallet Address",
+    "dontHaveWallet": "Don't have a Mezo wallet yet?",
+    "createWalletHere": "Create Mezo Account",
+    "createMezoWallet": "Create Mezo Account",
+    "alreadyHaveWallet": "Already have a wallet?",
+    "needWallet": "Need a wallet?",
+    "confirmYourEntry": "Claim Your BTC",
+    "submittingEntry": "Submitting...",
+    "successTitle": "You're In! 🚀",
+    "successDescription": "Your entry has been confirmed.",
+    "currentPosition": "Current Position",
+    "totalEntries": "LEADERBOARD POINTS",
+    "depositInfo": "Deposit BTC to your Mezo wallet to receive your match within 2 weeks",
+    "multiplyOpportunities": "Multiply your opportunities:",
+    "inviteFriends": "Climb the Leaderboard",
+    "inviteFriendsBonus": "+5 points per referral",
+    "copyLink": "Copy Link",
+    "shareOnX": "Share on X",
+    "shareOnXBonus": "+3 points",
+    "viewLeaderboard": "View Leaderboard",
+    "yourReferralLink": "Your Referral Link",
+    "linkCopied": "Link copied!",
+    "tweetText": "I just joined the Labitconf 2025 Bitcoin Bankers Kickstarter! Get up to $25 in BTC matched on your first Mezo deposit 🏦⚡️\n\nJoin me:",
+    "haveReferralCode": "Have a referral link?",
+    "referralCodePlaceholder": "Enter code (optional)",
+    "referralCodeFromLink": "Referral code applied from link",
+    "invalidReferralCodeFormat": "Invalid referral code format",
+    "labitconfCodeLabel": "Labitconf Code",
+    "labitconfCodePlaceholder": "Enter code (optional)",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "your@email.com",
+    "telegramLabel": "Telegram (Optional)",
+    "telegramPlaceholder": "@username or phone",
+    "privacyPolicy": "View Mezo's Privacy Policy",
+    "privacyPolicyLink": "here"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Four simple steps to get your match",
+    "maximizeOpportunities": "Maximize your opportunities",
+    "enterNow": "Get Started",
+    "steps": {
+      "step1": {
+        "title": "Create your Mezo account",
+        "description": "Sign up at mezo.org and create your wallet",
+        "icon": ""
+      },
+      "step2": {
+        "title": "Complete the form",
+        "description": "Enter your wallet address and contact info",
+        "icon": ""
+      },
+      "step3": {
+        "title": "Make your first deposit",
+        "description": "Deposit BTC to qualify for the match",
+        "icon": ""
+      },
+      "step4": {
+        "title": "Climb the leaderboard",
+        "description": "Get bonus entries for referring friends and sharing on X",
+        "icon": ""
+      }
+    },
+    "bonuses": {
+      "referral": {
+        "entries": "+5 points",
+        "description": "per referral"
+      },
+      "social": {
+        "entries": "+5 points",
+        "description": "for sharing on X"
+      }
+    }
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "columnRank": "Rank",
+    "columnAddress": "Address",
+    "columnEntries": "Entries",
+    "columnBadges": "Badges",
+    "noResults": "No results found",
+    "referrals": "referrals",
+    "socialShare": "shared",
+    "yourPosition": "Your Position",
+    "entry": "entry",
+    "entries": "entries",
+    "searchPlaceholder": "Search by wallet address",
+    "notFound": "Wallet not found",
+    "yourReflink": "Your Reflink",
+    "linkCopied": "Link copied!",
+    "tweetText": "I just joined the Labitconf 2025 Bitcoin Bankers Kickstarter! Get up to $25 in BTC matched on your first Mezo deposit 🏦⚡️\n\nJoin me:"
+  },
+  "connectWallet": {
+    "title": "Connect Your Wallet",
+    "walletLabel": "Wallet Address",
+    "walletPlaceholder": "Enter your wallet address",
+    "connect": "Connect",
+    "cancel": "Cancel",
+    "walletNotFound": "This wallet hasn't entered the giveaway yet",
+    "enterWallet": "Please enter a wallet address",
+    "checkingWallet": "Checking..."
+  },
+  "welcomePopup": {
+    "title": "Bitcoin Bankers Giveaway",
+    "subtitle": "Bank on Bitcoin, Get Rewarded",
+    "cta": "Enter to win"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPhone": "Please enter a valid phone number",
+    "submissionError": "There was an error submitting your entry. Please try again.",
+    "invalidWalletFormat": "Invalid wallet address format. Please enter a valid Ethereum or Bitcoin address",
+    "walletRequired": "Wallet address is required",
+    "walletVerificationFailed": "Unable to verify wallet. Please try again.",
+    "walletNotFoundOnMezo": "This wallet address does not exist on Mezo. Please create a Mezo wallet first.",
+    "duplicateWallet": "This wallet has already been registered",
+    "invalidReferralCode": "Referral code not found",
+    "selfReferral": "You cannot use your own referral code",
+    "networkError": "Network error. Please check your connection.",
+    "emailRequired": "Email address is required",
+    "invalidChecksum": "Warning: Invalid address checksum. Please verify the address is correct."
+  }
+}

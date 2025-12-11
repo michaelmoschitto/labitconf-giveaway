@@ -1,0 +1,232 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "bunRipped": "bun desgarrado."
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "connectWallet": "Conectar Billetera"
+  },
+  "giveaway": {
+    "title": "Bitcoin Bankers Kickstarter",
+    "subtitle": "Obtén hasta $25 en BTC en Mezo",
+    "description": "Obtén hasta $25 en BTC igualados en tu primer depósito de BTC a Mezo, la aplicación bancaria de Bitcoin. Estamos activando la primera ola de banqueros Bitcoin auto-custodiados en LATAM con igualaciones de depósito y acceso exclusivo a la aplicación móvil Mezo.",
+    "enterNow": "Participar Ahora",
+    "howItWorks": "Cómo Funciona",
+    "prizes": "Premios",
+    "leaderboard": "Clasificación",
+    "rules": "Reglas",
+    "comingSoon": "Próximamente..."
+  },
+  "hero": {
+    "headline": "Gana {amount} en Bitcoin",
+    "headlinePart1": "Bitcoin Bankers",
+    "headlinePart2": "Kickstarter",
+    "prizeAmount": "",
+    "subheadline": "Obtén hasta $25 en BTC en Mezo",
+    "totalPrize": "Premio Total",
+    "prizePool": "Bolsa de Premios",
+    "inBitcoin": "en Bitcoin",
+    "timeRemaining": "TIEMPO RESTANTE",
+    "timeEnding": "El Sorteo Termina En",
+    "days": "Días",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "seconds": "Segundos",
+    "winners": "Ganadores",
+    "winner": "Ganador",
+    "enterGiveaway": "Participar en el Sorteo",
+    "prizeBreakdown": "Desglose de Premios",
+    "grandPrize": "Gran Premio",
+    "runnerUp": "Premios Segundos Lugares",
+    "topPrizes": "Premios Principales",
+    "morePrizes": "Más Ganadores",
+    "getStarted": "Comienza Ahora"
+  },
+  "prizes": {
+    "title": "Deposita BTC, Obtén BTC",
+    "subtitle": "Crea tu cuenta Mezo, deposita fondos, obtén hasta $25 igualados",
+    "tiers": {
+      "grand": {
+        "title": "OG",
+        "amount": "$25 Match",
+        "winners": "60 billeteras",
+        "total": "60 billeteras"
+      },
+      "secondary": {
+        "title": "Sovereign",
+        "amount": "$20 Match",
+        "winners": "100 billeteras",
+        "total": "100 billeteras"
+      },
+      "intermediate": {
+        "title": "Explorer",
+        "amount": "$10 Match",
+        "winners": "250 billeteras",
+        "total": "250 billeteras"
+      },
+      "base": {
+        "title": "Total",
+        "amount": "$6k Match",
+        "winners": "410 billeteras",
+        "total": "410 billeteras"
+      }
+    },
+    "totalPrize": "Premio Total",
+    "totalAmount": "$6,000",
+    "inBitcoin": "en Bitcoin",
+    "totalWinners": "195 ganadores en total",
+    "distributionInfo": "Las igualaciones se distribuyen en BTC en Mezo dentro de 2 semanas del depósito calificado. El programa se lanza el 7 de noviembre en LaBitConf Buenos Aires. Solo las primeras 410 billeteras.",
+    "drawDate": ""
+  },
+  "form": {
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "country": "País",
+    "city": "Ciudad",
+    "twitter": "Usuario de Twitter",
+    "linkedin": "Perfil de LinkedIn",
+    "referralCode": "Código de Referencia (Opcional)",
+    "agreeTerms": "Acepto los términos y condiciones",
+    "subscribeNewsletter": "Suscribirse al boletín",
+    "enterGiveaway": "Entrar al sorteo",
+    "thankYou": "¡Gracias por participar!",
+    "confirmationMessage": "Tu participación ha sido enviada exitosamente. ¡Buena suerte!",
+    "confirmEntry": "Confirmar",
+    "confirmEntryWithReflink": "Confirmar Entrada usando reflink",
+    "walletAddress": "Tu dirección de billetera Mezo",
+    "walletAddressLabel": "Dirección de Billetera Mezo",
+    "dontHaveWallet": "¿Aún no tienes una billetera Mezo?",
+    "createWalletHere": "Crear Cuenta Mezo",
+    "createMezoWallet": "Crear Cuenta Mezo",
+    "alreadyHaveWallet": "¿Ya tienes una billetera?",
+    "needWallet": "¿Necesitas una billetera?",
+    "confirmYourEntry": "Reclama Tu BTC",
+    "submittingEntry": "Enviando...",
+    "successTitle": "¡Estás Dentro! 🚀",
+    "successDescription": "Tu entrada ha sido confirmada.",
+    "currentPosition": "Posición Actual",
+    "totalEntries": "PUNTOS DE CLASIFICACIÓN",
+    "depositInfo": "Deposita BTC en tu billetera Mezo para recibir tu igualación dentro de 2 semanas",
+    "multiplyOpportunities": "Multiplica tus oportunidades:",
+    "inviteFriends": "Sube en la Clasificación",
+    "inviteFriendsBonus": "+5 puntos por referencia",
+    "copyLink": "Copiar Link",
+    "shareOnX": "Compartir en X",
+    "shareOnXBonus": "+3 puntos",
+    "viewLeaderboard": "Ver Tabla de Posiciones",
+    "yourReferralLink": "Tu Link de Referencia",
+    "linkCopied": "¡Link copiado!",
+    "tweetText": "¡Acabo de unirme al Labitconf 2025 Bitcoin Bankers Kickstarter! Obtén hasta $25 en BTC igualados en tu primer depósito Mezo 🏦⚡️\n\nÚnete:",
+    "haveReferralCode": "¿Tienes un enlace de referencia?",
+    "referralCodePlaceholder": "Ingresa código (opcional)",
+    "referralCodeFromLink": "Código de referencia del enlace",
+    "invalidReferralCodeFormat": "Formato de código inválido",
+    "labitconfCodeLabel": "Código de Labitconf",
+    "labitconfCodePlaceholder": "Ingresa código (opcional)",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "telegramLabel": "Telegram (Opcional)",
+    "telegramPlaceholder": "@usuario o teléfono",
+    "privacyPolicy": "Ver la Política de Privacidad de Mezo",
+    "privacyPolicyLink": "aquí"
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Cuatro pasos simples para obtener tu igualación",
+    "maximizeOpportunities": "Maximiza tus oportunidades",
+    "enterNow": "Comenzar",
+    "steps": {
+      "step1": {
+        "title": "Crea tu cuenta Mezo",
+        "description": "Regístrate en mezo.org y crea tu billetera",
+        "icon": ""
+      },
+      "step2": {
+        "title": "Completa el formulario",
+        "description": "Ingresa tu dirección de billetera e información de contacto",
+        "icon": ""
+      },
+      "step3": {
+        "title": "Haz tu primer depósito",
+        "description": "Deposita BTC para calificar para la igualación",
+        "icon": ""
+      },
+      "step4": {
+        "title": "Sube en la clasificación",
+        "description": "Obtén entradas adicionales por referir amigos y compartir en X",
+        "icon": ""
+      }
+    },
+    "bonuses": {
+      "referral": {
+        "entries": "+5 puntos",
+        "description": "por referencia"
+      },
+      "social": {
+        "entries": "+5 puntos",
+        "description": "por compartir en X"
+      }
+    }
+  },
+  "leaderboard": {
+    "title": "Clasificación",
+    "columnRank": "Rango",
+    "columnAddress": "Dirección",
+    "columnEntries": "Entradas",
+    "columnBadges": "Bonificación",
+    "noResults": "No se encontraron resultados",
+    "referrals": "referencias",
+    "socialShare": "compartido",
+    "yourPosition": "Tu Posición",
+    "entry": "entrada",
+    "entries": "entradas",
+    "searchPlaceholder": "Buscar por dirección de billetera",
+    "notFound": "Billetera no encontrada",
+    "yourReflink": "Tu Reflink",
+    "linkCopied": "¡Link copiado!",
+    "tweetText": "¡Acabo de unirme al Labitconf 2025 Bitcoin Bankers Kickstarter! Obtén hasta $25 en BTC igualados en tu primer depósito Mezo 🏦⚡️\n\nÚnete:"
+  },
+  "connectWallet": {
+    "title": "Conecta Tu Billetera",
+    "walletLabel": "Dirección de Billetera",
+    "walletPlaceholder": "Ingresa tu dirección de billetera",
+    "connect": "Conectar",
+    "cancel": "Cancelar",
+    "walletNotFound": "Esta billetera no ha participado en el sorteo todavía",
+    "enterWallet": "Por favor ingresa una dirección de billetera",
+    "checkingWallet": "Verificando..."
+  },
+  "welcomePopup": {
+    "title": "Sorteo de Banqueros Bitcoin",
+    "subtitle": "Apuesta por Bitcoin, Obtén Recompensas",
+    "cta": "Participar para ganar"
+  },
+  "errors": {
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Por favor ingresa un correo electrónico válido",
+    "invalidPhone": "Por favor ingresa un número de teléfono válido",
+    "submissionError": "Hubo un error al enviar tu participación. Por favor intenta de nuevo.",
+    "invalidWalletFormat": "Formato de dirección de billetera inválido. Por favor ingresa una dirección de Ethereum o Bitcoin válida",
+    "walletRequired": "La dirección de billetera es obligatoria",
+    "walletVerificationFailed": "No se pudo verificar la billetera. Por favor intenta de nuevo.",
+    "walletNotFoundOnMezo": "Esta dirección de billetera no existe en Mezo. Por favor crea una billetera Mezo primero.",
+    "duplicateWallet": "Esta billetera ya está registrada",
+    "invalidReferralCode": "Código de referencia no encontrado",
+    "selfReferral": "No puedes usar tu propio código",
+    "networkError": "Error de red. Verifica tu conexión.",
+    "emailRequired": "El correo electrónico es obligatorio",
+    "invalidChecksum": "Advertencia: Checksum de dirección inválido. Verifica que la dirección sea correcta."
+  }
+}

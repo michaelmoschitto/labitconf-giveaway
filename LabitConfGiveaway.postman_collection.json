@@ -1,0 +1,329 @@
+{
+  "info": {
+    "_postman_id": "f53f5068-f6fb-4a58-8d2b-9e6382bf2445",
+    "name": "Labit Conf Giveaway",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "13439358"
+  },
+  "item": [
+    {
+      "name": "Enter Without Referral",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"wallet_address\": \"0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb1\"\n  }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{labitConfUrl}}/api/entries",
+          "host": ["{{labitConfUrl}}"],
+          "path": ["api", "entries"]
+        },
+        "description": "Generated from cURL: curl -X POST http://localhost:3000/api/entries \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"wallet_address\": \"0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb1\"\n  }' | jq"
+      },
+      "response": []
+    },
+    {
+      "name": "Enter With Referral",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"wallet_address\": \"0x1234567890123456789012345678901234567890\",\n    \"referral_code\": \"DiKB62Uj\"\n  }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{labitConfUrl}}/api/entries",
+          "host": ["{{labitConfUrl}}"],
+          "path": ["api", "entries"]
+        },
+        "description": "Generated from cURL: curl -X POST http://localhost:3000/api/entries \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"wallet_address\": \"0x1234567890123456789012345678901234567890\",\n    \"referral_code\": \"PASTE_CODE_HERE\"\n  }'"
+      },
+      "response": []
+    },
+    {
+      "name": "Leaderboard",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{labitConfUrl}}/api/leaderboard",
+          "host": ["{{labitConfUrl}}"],
+          "path": ["api", "leaderboard"]
+        },
+        "description": "Generated from cURL: curl -X GET \"http://localhost:3000/api/leaderboard\""
+      },
+      "response": []
+    },
+    {
+      "name": "Wallet Leaderboard Position",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{localUrll}}/api/leaderboard/position?wallet=0x1a2b3c4d5e6f7890abcdef1234567890abcdef12",
+          "host": ["{{localUrll}}"],
+          "path": ["api", "leaderboard", "position"],
+          "query": [
+            {
+              "key": "wallet",
+              "value": "0x1a2b3c4d5e6f7890abcdef1234567890abcdef12"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl -X GET \"http://localhost:3000/api/leaderboard/position?wallet=0x1a2b3c4d5e6f7890abcdef1234567890abcdef12\""
+      },
+      "response": []
+    },
+    {
+      "name": "Mezo Account (EIP-55 checksummed)",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "disabled": true
+          },
+          {
+            "key": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "disabled": true
+          },
+          {
+            "key": "cache-control",
+            "value": "max-age=0",
+            "disabled": true
+          },
+          {
+            "key": "priority",
+            "value": "u=0, i",
+            "disabled": true
+          },
+          {
+            "key": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+            "disabled": true
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0",
+            "disabled": true
+          },
+          {
+            "key": "sec-ch-ua-platform",
+            "value": "\"macOS\"",
+            "disabled": true
+          },
+          {
+            "key": "sec-fetch-dest",
+            "value": "document",
+            "disabled": true
+          },
+          {
+            "key": "sec-fetch-mode",
+            "value": "navigate",
+            "disabled": true
+          },
+          {
+            "key": "sec-fetch-site",
+            "value": "none",
+            "disabled": true
+          },
+          {
+            "key": "sec-fetch-user",
+            "value": "?1",
+            "disabled": true
+          },
+          {
+            "key": "upgrade-insecure-requests",
+            "value": "1",
+            "disabled": true
+          },
+          {
+            "key": "user-agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+            "disabled": true
+          },
+          {
+            "key": "Cookie",
+            "value": "_ga=GA1.1.2127537367.1748458237; spdl_pid=lnNiJpWauL73RqsRHq47DvTD8hSpOEKa; ___adrsbl_nonce=4ca52400c4685b72228fced9a5f1d78a; _hp5_event_props.1132954413=%7B%7D; _hp5_let.1132954413=1748458238228; _hp5_meta.1132954413=%7B%22userId%22%3A%226050734343694243%22%2C%22sessionId%22%3A%227169699386494788%22%2C%22sessionProperties%22%3A%7B%22time%22%3A1748458238228%2C%22referrer%22%3A%22http%3A%2F%2Flocalhost%3A3000%2F%22%2C%22id%22%3A%227169699386494788%22%2C%22search_keyword%22%3A%22%22%2C%22utm%22%3A%7B%22source%22%3A%22%22%2C%22medium%22%3A%22%22%2C%22term%22%3A%22%22%2C%22content%22%3A%22%22%2C%22campaign%22%3A%22%22%7D%2C%22initial_pageview_info%22%3A%7B%22time%22%3A1748458238228%2C%22id%22%3A%222174823499357620%22%2C%22title%22%3A%22Mezo%3A%20Everyday%20finance%20using%20Bitcoin%22%2C%22url%22%3A%7B%22domain%22%3A%22mezo.org%22%2C%22path%22%3A%22%2F%22%2C%22query%22%3A%22%22%2C%22hash%22%3A%22%22%7D%2C%22source_properties%22%3A%7B%22screen_height%22%3A839%2C%22screen_width%22%3A1536%7D%7D%7D%7D; MEZO_SESSION=1DHvPrrNHxiBGaEHa; _hjSessionUser_6465420=eyJpZCI6ImE2M2Q2MGJmLTM2OTItNWFlMy1hYTgzLWM4Njg5NzE4ZTE1NCIsImNyZWF0ZWQiOjE3NTkyOTUwOTk3NzMsImV4aXN0aW5nIjp0cnVlfQ==; ajs_anonymous_id=57494b23-79a9-4d6b-b48c-f21834e44ad3; zaraz-consent={\"eQic\":true}; _ga_MKEL863G17=GS2.1.s1761103340$o4$g0$t1761103345$j55$l0$h0",
+            "disabled": true
+          }
+        ],
+        "url": {
+          "raw": "https://api.mezo.org/accounts/0x83DB892a6688B966122Be219fa873BF24D7db79F",
+          "protocol": "https",
+          "host": ["api", "mezo", "org"],
+          "path": ["accounts", "0x83DB892a6688B966122Be219fa873BF24D7db79F"]
+        },
+        "description": "Generated from cURL: curl 'https://api.mezo.org/accounts/0x83DB892a6688B966122Be219fa873BF24D7db790' \\\n  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\n  -H 'accept-language: en-US,en;q=0.9' \\\n  -H 'cache-control: max-age=0' \\\n  -b '_ga=GA1.1.2127537367.1748458237; spdl_pid=lnNiJpWauL73RqsRHq47DvTD8hSpOEKa; ___adrsbl_nonce=4ca52400c4685b72228fced9a5f1d78a; _hp5_event_props.1132954413=%7B%7D; _hp5_let.1132954413=1748458238228; _hp5_meta.1132954413=%7B%22userId%22%3A%226050734343694243%22%2C%22sessionId%22%3A%227169699386494788%22%2C%22sessionProperties%22%3A%7B%22time%22%3A1748458238228%2C%22referrer%22%3A%22http%3A%2F%2Flocalhost%3A3000%2F%22%2C%22id%22%3A%227169699386494788%22%2C%22search_keyword%22%3A%22%22%2C%22utm%22%3A%7B%22source%22%3A%22%22%2C%22medium%22%3A%22%22%2C%22term%22%3A%22%22%2C%22content%22%3A%22%22%2C%22campaign%22%3A%22%22%7D%2C%22initial_pageview_info%22%3A%7B%22time%22%3A1748458238228%2C%22id%22%3A%222174823499357620%22%2C%22title%22%3A%22Mezo%3A%20Everyday%20finance%20using%20Bitcoin%22%2C%22url%22%3A%7B%22domain%22%3A%22mezo.org%22%2C%22path%22%3A%22%2F%22%2C%22query%22%3A%22%22%2C%22hash%22%3A%22%22%7D%2C%22source_properties%22%3A%7B%22screen_height%22%3A839%2C%22screen_width%22%3A1536%7D%7D%7D%7D; MEZO_SESSION=1DHvPrrNHxiBGaEHa; _hjSessionUser_6465420=eyJpZCI6ImE2M2Q2MGJmLTM2OTItNWFlMy1hYTgzLWM4Njg5NzE4ZTE1NCIsImNyZWF0ZWQiOjE3NTkyOTUwOTk3NzMsImV4aXN0aW5nIjp0cnVlfQ==; ajs_anonymous_id=57494b23-79a9-4d6b-b48c-f21834e44ad3; zaraz-consent={\"eQic\":true}; _ga_MKEL863G17=GS2.1.s1761103340$o4$g0$t1761103345$j55$l0$h0' \\\n  -H 'priority: u=0, i' \\\n  -H 'sec-ch-ua: \"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"' \\\n  -H 'sec-ch-ua-mobile: ?0' \\\n  -H 'sec-ch-ua-platform: \"macOS\"' \\\n  -H 'sec-fetch-dest: document' \\\n  -H 'sec-fetch-mode: navigate' \\\n  -H 'sec-fetch-site: none' \\\n  -H 'sec-fetch-user: ?1' \\\n  -H 'upgrade-insecure-requests: 1' \\\n  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'"
+      },
+      "response": []
+    },
+    {
+      "name": "Get Mezo Account (Bech32  BTC Address)",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "disabled": true
+          },
+          {
+            "key": "accept-language",
+            "value": "en-US,en;q=0.9",
+            "disabled": true
+          },
+          {
+            "key": "cache-control",
+            "value": "max-age=0",
+            "disabled": true
+          },
+          {
+            "key": "priority",
+            "value": "u=0, i",
+            "disabled": true
+          },
+          {
+            "key": "sec-ch-ua",
+            "value": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+            "disabled": true
+          },
+          {
+            "key": "sec-ch-ua-mobile",
+            "value": "?0",
+            "disabled": true
+          },
+          {
+            "key": "sec-ch-ua-platform",
+            "value": "\"macOS\"",
+            "disabled": true
+          },
+          {
+            "key": "sec-fetch-dest",
+            "value": "document",
+            "disabled": true
+          },
+          {
+            "key": "sec-fetch-mode",
+            "value": "navigate",
+            "disabled": true
+          },
+          {
+            "key": "sec-fetch-site",
+            "value": "none",
+            "disabled": true
+          },
+          {
+            "key": "sec-fetch-user",
+            "value": "?1",
+            "disabled": true
+          },
+          {
+            "key": "upgrade-insecure-requests",
+            "value": "1",
+            "disabled": true
+          },
+          {
+            "key": "user-agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+            "disabled": true
+          },
+          {
+            "key": "Cookie",
+            "value": "_ga=GA1.1.2127537367.1748458237; spdl_pid=lnNiJpWauL73RqsRHq47DvTD8hSpOEKa; ___adrsbl_nonce=4ca52400c4685b72228fced9a5f1d78a; _hp5_event_props.1132954413=%7B%7D; _hp5_let.1132954413=1748458238228; _hp5_meta.1132954413=%7B%22userId%22%3A%226050734343694243%22%2C%22sessionId%22%3A%227169699386494788%22%2C%22sessionProperties%22%3A%7B%22time%22%3A1748458238228%2C%22referrer%22%3A%22http%3A%2F%2Flocalhost%3A3000%2F%22%2C%22id%22%3A%227169699386494788%22%2C%22search_keyword%22%3A%22%22%2C%22utm%22%3A%7B%22source%22%3A%22%22%2C%22medium%22%3A%22%22%2C%22term%22%3A%22%22%2C%22content%22%3A%22%22%2C%22campaign%22%3A%22%22%7D%2C%22initial_pageview_info%22%3A%7B%22time%22%3A1748458238228%2C%22id%22%3A%222174823499357620%22%2C%22title%22%3A%22Mezo%3A%20Everyday%20finance%20using%20Bitcoin%22%2C%22url%22%3A%7B%22domain%22%3A%22mezo.org%22%2C%22path%22%3A%22%2F%22%2C%22query%22%3A%22%22%2C%22hash%22%3A%22%22%7D%2C%22source_properties%22%3A%7B%22screen_height%22%3A839%2C%22screen_width%22%3A1536%7D%7D%7D%7D; MEZO_SESSION=1DHvPrrNHxiBGaEHa; _hjSessionUser_6465420=eyJpZCI6ImE2M2Q2MGJmLTM2OTItNWFlMy1hYTgzLWM4Njg5NzE4ZTE1NCIsImNyZWF0ZWQiOjE3NTkyOTUwOTk3NzMsImV4aXN0aW5nIjp0cnVlfQ==; ajs_anonymous_id=57494b23-79a9-4d6b-b48c-f21834e44ad3; zaraz-consent={\"eQic\":true}; _ga_MKEL863G17=GS2.1.s1761103340$o4$g0$t1761103345$j55$l0$h0",
+            "disabled": true
+          }
+        ],
+        "url": {
+          "raw": "https://api.mezo.org/accounts/bc1qp0q396yh72j5830m6hh4nwfjzwxhagzu95mw4n",
+          "protocol": "https",
+          "host": ["api", "mezo", "org"],
+          "path": ["accounts", "bc1qp0q396yh72j5830m6hh4nwfjzwxhagzu95mw4n"]
+        },
+        "description": "Generated from cURL: curl 'https://api.mezo.org/accounts/0x83DB892a6688B966122Be219fa873BF24D7db790' \\\n  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\n  -H 'accept-language: en-US,en;q=0.9' \\\n  -H 'cache-control: max-age=0' \\\n  -b '_ga=GA1.1.2127537367.1748458237; spdl_pid=lnNiJpWauL73RqsRHq47DvTD8hSpOEKa; ___adrsbl_nonce=4ca52400c4685b72228fced9a5f1d78a; _hp5_event_props.1132954413=%7B%7D; _hp5_let.1132954413=1748458238228; _hp5_meta.1132954413=%7B%22userId%22%3A%226050734343694243%22%2C%22sessionId%22%3A%227169699386494788%22%2C%22sessionProperties%22%3A%7B%22time%22%3A1748458238228%2C%22referrer%22%3A%22http%3A%2F%2Flocalhost%3A3000%2F%22%2C%22id%22%3A%227169699386494788%22%2C%22search_keyword%22%3A%22%22%2C%22utm%22%3A%7B%22source%22%3A%22%22%2C%22medium%22%3A%22%22%2C%22term%22%3A%22%22%2C%22content%22%3A%22%22%2C%22campaign%22%3A%22%22%7D%2C%22initial_pageview_info%22%3A%7B%22time%22%3A1748458238228%2C%22id%22%3A%222174823499357620%22%2C%22title%22%3A%22Mezo%3A%20Everyday%20finance%20using%20Bitcoin%22%2C%22url%22%3A%7B%22domain%22%3A%22mezo.org%22%2C%22path%22%3A%22%2F%22%2C%22query%22%3A%22%22%2C%22hash%22%3A%22%22%7D%2C%22source_properties%22%3A%7B%22screen_height%22%3A839%2C%22screen_width%22%3A1536%7D%7D%7D%7D; MEZO_SESSION=1DHvPrrNHxiBGaEHa; _hjSessionUser_6465420=eyJpZCI6ImE2M2Q2MGJmLTM2OTItNWFlMy1hYTgzLWM4Njg5NzE4ZTE1NCIsImNyZWF0ZWQiOjE3NTkyOTUwOTk3NzMsImV4aXN0aW5nIjp0cnVlfQ==; ajs_anonymous_id=57494b23-79a9-4d6b-b48c-f21834e44ad3; zaraz-consent={\"eQic\":true}; _ga_MKEL863G17=GS2.1.s1761103340$o4$g0$t1761103345$j55$l0$h0' \\\n  -H 'priority: u=0, i' \\\n  -H 'sec-ch-ua: \"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"' \\\n  -H 'sec-ch-ua-mobile: ?0' \\\n  -H 'sec-ch-ua-platform: \"macOS\"' \\\n  -H 'sec-fetch-dest: document' \\\n  -H 'sec-fetch-mode: navigate' \\\n  -H 'sec-fetch-site: none' \\\n  -H 'sec-fetch-user: ?1' \\\n  -H 'upgrade-insecure-requests: 1' \\\n  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'"
+      },
+      "response": []
+    },
+    {
+      "name": "Wallet Social Share",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"wallet_address\": \"0x8d9e0f1a2b3c4d5e6f7890abcdef12345678901a\"\n  }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{labitConfUrl}}/api/social-share",
+          "host": ["{{labitConfUrl}}"],
+          "path": ["api", "social-share"]
+        },
+        "description": "Generated from cURL: curl -X POST \"http://localhost:3000/api/social-share\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Accept: application/json\" \\\n  -d '{\n    \"wallet_address\": \"0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb\"\n  }'"
+      },
+      "response": []
+    },
+    {
+      "name": "Check Wallet Duplicate (Invalid)",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{labitConfUrl}}api/entries/check?wallet=0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+          "host": ["{{labitConfUrl}}api"],
+          "path": ["entries", "check"],
+          "query": [
+            {
+              "key": "wallet",
+              "value": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl -X GET \"http://localhost:3000/api/entries/check?wallet=0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb\" \\\n  -H \"Accept: application/json\""
+      },
+      "response": []
+    }
+  ]
+}
